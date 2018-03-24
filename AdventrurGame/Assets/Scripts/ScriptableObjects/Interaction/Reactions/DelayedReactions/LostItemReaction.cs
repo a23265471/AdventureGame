@@ -1,9 +1,9 @@
 public class LostItemReaction : DelayedReaction
 {
-    public Item item;
+    public Item item;               // Item to be removed from the Inventory.
 
 
-    private Inventory inventory;
+    private Inventory inventory;    // Reference to the Inventory component.
 
 
     protected override void SpecificInit()
